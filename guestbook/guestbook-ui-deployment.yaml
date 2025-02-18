@@ -5,7 +5,7 @@ metadata:
     argocd.argoproj.io/compare-options: IgnoreExtraneous
   name: guestbook-ui
 spec:
-  replicas: 3
+  replicas: 2
   revisionHistoryLimit: 3
   selector:
     matchLabels:
